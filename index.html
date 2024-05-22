@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Input Form</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<div class="container">
+    <form method="post" action="task_1.php">
+        <div class="card-input">
+            <label for="cardNumber">Card Number</label>
+            <div class="input-container">
+                <span class="icon">&#x1F4B3;</span>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9012 3456" maxlength="19"  oninput="formatCardNumber(this)" required>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
