@@ -8,3 +8,4 @@ function formatCardNumber(input) {
     // Set the formatted value back to the input field
     input.value = formattedValue;
 }
+
